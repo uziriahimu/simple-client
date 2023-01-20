@@ -12,7 +12,7 @@ const Home = () => {
             text
         }
 
-        fetch('http://localhost:5000/textdata', {
+        fetch('https://simple-server-nine.vercel.app/textdata', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json',

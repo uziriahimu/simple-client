@@ -22,7 +22,7 @@ const router = createBrowserRouter([
       {
         path: '/textdata/:id',
         element: <SingleData></SingleData>,
-        loader: ({ params }) => fetch(`http://localhost:5000/textdata/${params.id}`)
+        loader: ({ params }) => fetch(`https://simple-server-nine.vercel.app/textdata/${params.id}`)
       }
 
     ]

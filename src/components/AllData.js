@@ -7,7 +7,7 @@ const AllData = () => {
     // const { _id } = useLoaderData()
 
     useEffect(() => {
-        fetch('http://localhost:5000/textdata')
+        fetch('https://simple-server-nine.vercel.app/textdata')
             .then(res => res.json())
             .then(data => setDatas(data))
     }, [])

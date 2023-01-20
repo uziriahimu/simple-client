@@ -2,7 +2,7 @@ import React from 'react';
 import { useLoaderData } from 'react-router-dom';
 
 const SingleData = () => {
-    const { _id, text } = useLoaderData()
+    const { text } = useLoaderData()
     return (
         <div>
             <div className=' max-w-screen-xl mx-auto mt-10 '>
